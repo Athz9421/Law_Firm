@@ -1,0 +1,32 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+   
+}
+.heroText>h2{
+
+    font-size: 66px;
+
+}
+.heroText>p{
+
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 29px;
+opacity: 0.3;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.heroText{
+    width: 571px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
