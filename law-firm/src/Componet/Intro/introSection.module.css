@@ -1,0 +1,42 @@
+.wrapper{
+display: flex;
+justify-content: space-between;
+
+}
+.text1{
+    color: var(--pure-white, #FFF);
+font-family: Inter;
+font-size: 54px;
+font-style: normal;
+font-weight: 600;
+line-height: 161.523%; /* 87.222px */
+width: 387px;
+}
+.line{
+    width: 1px;
+height: 206px;
+background: #6A6A6A;
+}
+.text2 >h3{
+    color: var(--pure-white, #FFF);
+
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height:  52.007px
+}
+.text2 >p{
+    color: var(--pure-white, #FFF);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 162.523%; /* 29.254px */
+opacity: 0.3;
+}
+.text2{
+    
+    
+    width: 475px;
+}

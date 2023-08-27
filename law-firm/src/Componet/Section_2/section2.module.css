@@ -1,0 +1,15 @@
+.section2Wrapper{
+
+
+}
+.heading{
+    text-align: center;
+    font-size: 54px;
+    font-weight: 600;
+    margin-bottom: 97px;
+
+}
+.cardWrapper{
+    display: flex;
+    gap: 32px;
+}
