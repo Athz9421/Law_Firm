@@ -31,16 +31,13 @@ else{
           <div className={styles.cardimg}>
             <img src={img} alt="img" />
           </div>
-          <div className={styles.cardHeading}> 100% Success Rate</div>
+          <div className={styles.cardHeading}> {title}</div>
+          <p className={styles.subtitle}>{subTitle}</p>
           <div className={styles.cardText}>
             {" "}
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequatduis enim velit mollit Exer.
+          {description}.
           </div>
-          <div className={styles.btn}>
-            {" "}
-            <button>Read More</button>
-          </div>
+        
         </div>
       );
 

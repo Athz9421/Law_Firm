@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './navbar.module.css'
 import { ReactComponent as Logo } from '../../Assets/Logo.svg'
+import { ReactComponent as SocialMedia } from '../../Assets/insta.svg'
 
 
-const Navbar = () => {
+const Navbar = ({islogo}) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.logowrapper}><Logo/></div>
@@ -13,7 +14,8 @@ const Navbar = () => {
   <p>Practice Areas</p>
   <p>About Us</p>
       </div>
-      <div className={styles.contact}><button >Contact</button></div>
+ 
+    {islogo===true?(<div className={styles.contact}><button >Contact</button></div>):(<SocialMedia/>) }
     </div>
   )
 }

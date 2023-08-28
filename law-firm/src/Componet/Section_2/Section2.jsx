@@ -35,7 +35,7 @@ const Section2 = () => {
         {cardData.map((data, index) => (
           <Crad
             key={index}
-            client
+            client={true}
             isSelected={selectedCardIndex === index}
             onClick={() => handleCardClick(index)}
        

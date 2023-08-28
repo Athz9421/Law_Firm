@@ -1,0 +1,25 @@
+.footerText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+font-size: 14px;
+font-weight: 400;
+margin-bottom: 90px;
+
+
+}
+.navDiv{
+    margin-left: 164px;
+margin-right: 142px;
+margin-top: 119px;
+}
+.wrapper{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 102px;
+    margin-top: 200px;
+}
+

@@ -1,0 +1,26 @@
+.heading{
+
+font-size: 54px;
+font-weight: 600;
+
+
+
+}
+.text1{
+
+font-size: 18px;
+font-weight: 500;
+line-height: 29px;
+opacity: 30%;
+
+}
+.innerWrapper{
+    display: flex;
+
+}
+.text1{
+    width: 557px;
+}
+.accordien{
+    width: 564px;
+}

@@ -23,3 +23,40 @@
     display: block;
     max-width: 100%;
   }
+  .swiper-slide{
+    width: auto !important;
+  }
+  .MuiAccordion-root{
+    background-color: var(--color-black) !important;
+ 
+    color: var(--color-white) !important;
+    width: 100% !important;
+    margin-top: 12px;
+    margin-bottom: 12px;
+ 
+
+  }
+  .MuiAccordion-rounded{
+    border-radius: 10px !important;
+  }
+
+  .MuiAccordionSummary-expandIconWrapper{
+    color: var(--color-primary) !important;
+  }
+  
+  .MuiAccordionDetails-root{
+color:var(--color-white);
+background-color: var(--color-black) ;
+opacity: 0.3;
+height: 109px;
+  }
+
+  .MuiAutocomplete-root .MuiInputBase-root{
+    
+      background-color: white;
+      height: 48px;
+      border-radius: 8px;
+ border-top-right-radius: 0px;
+ border-bottom-right-radius: 0px;
+ border: 1px solid var(--color-black);
+  }

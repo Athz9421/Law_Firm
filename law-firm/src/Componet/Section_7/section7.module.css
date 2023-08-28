@@ -1,0 +1,49 @@
+.heading{
+  
+font-size: 55px;
+font-weight: 500;
+
+
+}
+.Info{
+    display:  flex;
+    height: 53px;
+
+
+}
+.wrapper{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 42px;
+    height: 356px;
+    background-color: rgba(71, 71, 71, 0.5);
+}
+.text{
+    width: 276px;
+    height: 53px;
+  
+    border-radius: 8px 0px 0px 8px;
+    margin-right: 5px;
+    
+}
+.email{
+    width: 276px;
+    height: 53px;
+  
+    margin-right: 5px;
+}
+.btn{
+    width: 116px;
+height: 53px;
+border-radius: 0px 8px 8px 0px;
+background-color: var(--color-primary);
+color: var(--color-black);
+font-weight: 500px;
+
+}
+::placeholder{
+    padding: 18px;
+}
