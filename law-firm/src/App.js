@@ -1,3 +1,5 @@
+import React from "react";
+import { Link as ScrollLink, Element } from "react-scroll";
 import Footer from "./Componet/FooterSection/Footer";
 import IntroSection from "./Componet/Intro/IntroSection";
 import Navbar from "./Componet/Navbar/Navbar";
@@ -14,22 +16,38 @@ import styles from "./app.module.css";
 function App() {
   return (
     <>
-  
-        <div className={styles.LandingPagewrapper}>
-          <Navbar islogo={true} />
-          <Hero />
-        </div>
-        <div className={styles.bodyWrapper}>
-        <IntroSection />
-        <Section2/>
-        <Section3/>
-        <Section4/>
-        <Section5/>
-        <Section6/>
-        <Section7/>
-      
-        </div>
-        <Footer/>
+      <div className={styles.LandingPagewrapper}>
+        <Navbar islogo={true} />
+        <Element name="home">
+        <Hero />
+        </Element>
+        
+      </div>
+      <div className={styles.bodyWrapper}>
+        <Element name="intro">
+          <IntroSection />
+        </Element>
+        <Element name="section2">
+          <Section2 />
+        </Element>
+        <Element name="section3">
+          <Section3 />
+        </Element>
+        <Element name="section4">
+          <Section4 />
+        </Element>
+        <Element name="section5">
+          <Section5 />
+        </Element>
+        <Element name="section6">
+          <Section6 />
+        </Element>
+        <Element name="section7">
+        <Section7 />
+        </Element>
+       
+      </div>
+      <Footer />
     </>
   );
 }
